@@ -5,7 +5,7 @@ const resizeImg = require("resize-img");
 const { app, BrowserWindow, Menu, ipcMain, shell } = require("electron");
 
 
-process.env.NODE_ENV = "development";
+process.env.NODE_ENV = "production";
 
 //Create main window
 const isDev = process.env.NODE_ENV !== "production";
